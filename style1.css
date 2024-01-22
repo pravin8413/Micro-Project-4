@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: gray;
+}
+
+.calulator{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: red;
+}
+
+.display{
+    height: 20%;
+    width: 100%;
+   
+}
+.user-input{
+    background-color: darkblue;
+    text-align: right;
+    border-radius: 16px;
+    padding: 12px;
+    height: 100%;
+    width: 100%;
+    font-size: 3rem;
+    border: none;
+    
+}
+
+.keypad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    padding: 5%;
+    border-radius: 16px;
+    row-gap: 2rem;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    row-gap: 1rem;
+    
+}
+.key{
+    background-color: white;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.delete-key{
+    background-color: red;
+    
+}
+.reset-key{
+    background-color: rgb(29, 28, 28);
+    width: 43%;
+}
+.equal-key{
+    width: 43%;
+}
